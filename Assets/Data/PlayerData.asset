@@ -17,5 +17,5 @@ MonoBehaviour:
   balance: 0
   previousExpLevel: 0
   previousExp: 0
-  selectedWeapon: {fileID: 11400000, guid: 33d504e7c15784ae1bf3c2d2ecb3f73c, type: 2}
-  selectedSkin: {fileID: 11400000, guid: 4fb391bd48e5841e0ac4bf07958f576e, type: 2}
+  selectedWeapon: {fileID: 0}
+  selectedSkin: {fileID: 0}

@@ -10,12 +10,6 @@ public class PersistentDataEditor : Editor
 
 		EditorGUI.BeginDisabledGroup(serializedObject.isEditingMultipleObjects);
 
-		if (GUILayout.Button("Drop Data"))
-		{
-			((PersistentData)target).DropData();
-			EditorGUILayout.Space();
-		}
-
 		if (GUILayout.Button("Save"))
         {
 			((PersistentData)target).Save();

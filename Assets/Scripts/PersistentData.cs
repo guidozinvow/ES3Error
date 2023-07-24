@@ -16,11 +16,4 @@ public abstract class PersistentData : ScriptableObject
         }
     }
 
-    public void DropData()
-    {
-        ResetData();
-        Save();
-    }
-
-    public abstract void ResetData();
 }
