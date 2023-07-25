@@ -29,10 +29,10 @@ namespace ES3Types
 				{
 					
 					case "selectedWeapon":
-						instance.selectedWeapon = reader.Read<WeaponType>(ES3UserType_WeaponType.Instance);
+						instance.selectedWeapon = reader.Read<WeaponType>();
 						break;
 					case "selectedSkin":
-						instance.selectedSkin = reader.Read<SkinType>(ES3UserType_SkinType.Instance);
+						instance.selectedSkin = reader.Read<SkinType>();
 						break;
 					default:
 						reader.Skip();
