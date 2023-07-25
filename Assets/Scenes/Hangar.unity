@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerData: {fileID: 11400000, guid: 26b046ba0367b4ab79e5eb017597958c, type: 2}
-  selectedWeapon: {fileID: 11400000, guid: 3df8bf6c67b8d44d6a13a13008bfacdc, type: 2}
+  selectedWeapon: {fileID: 11400000, guid: f3978467247514dc5890f561779fd135, type: 2}
   selectedSkin: {fileID: 11400000, guid: cbf23bfdb50da4e02bfebc7668b1da65, type: 2}
 --- !u!4 &856183491
 Transform:
@@ -262,7 +262,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1763775052
+--- !u!1 &904014805
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,9 +270,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1763775055}
-  - component: {fileID: 1763775054}
-  - component: {fileID: 1763775053}
+  - component: {fileID: 904014808}
+  - component: {fileID: 904014807}
+  - component: {fileID: 904014806}
   m_Layer: 0
   m_Name: Easy Save 3 Manager
   m_TagString: Untagged
@@ -280,19 +280,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1763775053
+--- !u!114 &904014806
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763775052}
+  m_GameObject: {fileID: 904014805}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9107aee0ced90422da95f0b31680501f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: e6fa086f-e09e-44a3-b98d-a1d449e7ed0f
+  key: 1b7cfe5b-5521-4ef8-b1d0-d1adcb20dc5a
   saveEvent: 1
   loadEvent: 1
   settings:
@@ -316,13 +316,13 @@ MonoBehaviour:
     - Assembly-CSharp-firstpass
     - Assembly-CSharp
     showAdvancedSettings: 0
---- !u!114 &1763775054
+--- !u!114 &904014807
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763775052}
+  m_GameObject: {fileID: 904014805}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a83408fcc9044c4fbc7e5d09a369ab6, type: 3}
@@ -331,7 +331,7 @@ MonoBehaviour:
   openPrefabs: 0
   prefabs: []
   idRef:
-    _Keys: 833adfaf96b5b706ef17c6eea6e4587419fe676eee22590ecaac134938689137572f2dd2cb48da1be8bdf359d4918462929a2822f5e0f55ae45ea02be0cc9a0355f089a9fd4afa76d0e7c15d694b9c7cc0f8f84bc723ed01120d5d4a0a6e0d285ccc2768b2c20204758690d7fa528260b7b933b2d173b4528fbd2c4bba61315a7908a481ea956f18
+    _Keys: 002ee5014865e96e577a88d3f9979e5f888264fb35366b61acf2618f5118d429de659271f5ce5a6ec6d26e7027f45f4e7fb5a61bcdb52136e45ea02be0cc9a0355f089a9fd4afa76d0e7c15d694b9c7ce3b54f03000000002a2c0a0000000000758690d7fa5282605ccc2768b2c20204120d5d4a0a6e0d287908a481ea956f18508cb0b72994ba1a8fbd2c4bba61315a
     _Values:
     - {fileID: 519420028}
     - {fileID: 519420032}
@@ -344,19 +344,20 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 26b046ba0367b4ab79e5eb017597958c, type: 2}
     - {fileID: 11500000, guid: 0599b97be7e38422897b808ae9e27b64, type: 3}
     - {fileID: 11400000, guid: f3978467247514dc5890f561779fd135, type: 2}
-    - {fileID: 11400000, guid: 3df8bf6c67b8d44d6a13a13008bfacdc, type: 2}
-    - {fileID: 11500000, guid: 07730bb2eb1924f10ab0d9c6b81ee118, type: 3}
-    - {fileID: 11400000, guid: 630251501a0e247f988ea6b10f4edbaf, type: 2}
     - {fileID: 11400000, guid: cbf23bfdb50da4e02bfebc7668b1da65, type: 2}
-    - {fileID: 11400000, guid: 1641d67acc63c4447ae6d7f7bd52e4ce, type: 2}
     - {fileID: 11400000, guid: 18953b7622e054bc7844ad6a4b8c9ddb, type: 2}
---- !u!4 &1763775055
+    - {fileID: 11500000, guid: 07730bb2eb1924f10ab0d9c6b81ee118, type: 3}
+    - {fileID: 11400000, guid: 1641d67acc63c4447ae6d7f7bd52e4ce, type: 2}
+    - {fileID: 11400000, guid: 630251501a0e247f988ea6b10f4edbaf, type: 2}
+    - {fileID: 11500000, guid: ab95e70ae1d094726bd2610292f59364, type: 3}
+    - {fileID: 11400000, guid: 3df8bf6c67b8d44d6a13a13008bfacdc, type: 2}
+--- !u!4 &904014808
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763775052}
+  m_GameObject: {fileID: 904014805}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}

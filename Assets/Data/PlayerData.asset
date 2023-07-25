@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0599b97be7e38422897b808ae9e27b64, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
-  selectedWeapon: {fileID: 11400000, guid: 3df8bf6c67b8d44d6a13a13008bfacdc, type: 2}
+  selectedWeapon: {fileID: 11400000, guid: f3978467247514dc5890f561779fd135, type: 2}
   selectedSkin: {fileID: 11400000, guid: cbf23bfdb50da4e02bfebc7668b1da65, type: 2}
