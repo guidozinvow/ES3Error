@@ -245,8 +245,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerData: {fileID: 11400000, guid: 26b046ba0367b4ab79e5eb017597958c, type: 2}
-  selectedWeapon: {fileID: 11400000, guid: 33d504e7c15784ae1bf3c2d2ecb3f73c, type: 2}
-  selectedSkin: {fileID: 11400000, guid: a0b0e2f862a284e7db5cfaa290e5d4b0, type: 2}
+  selectedWeapon: {fileID: 11400000, guid: 3df8bf6c67b8d44d6a13a13008bfacdc, type: 2}
+  selectedSkin: {fileID: 11400000, guid: cbf23bfdb50da4e02bfebc7668b1da65, type: 2}
 --- !u!4 &856183491
 Transform:
   m_ObjectHideFlags: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
   openPrefabs: 0
   prefabs: []
   idRef:
-    _Keys: 833adfaf96b5b706ef17c6eea6e4587419fe676eee22590ecaac134938689137572f2dd2cb48da1be8bdf359d4918462929a2822f5e0f55ae45ea02be0cc9a0355f089a9fd4afa76d0e7c15d694b9c7cb7b933b2d173b452120d5d4a0a6e0d285ccc2768b2c20204758690d7fa528260b8b933b2d173b4528fbd2c4bba61315a7908a481ea956f18
+    _Keys: 833adfaf96b5b706ef17c6eea6e4587419fe676eee22590ecaac134938689137572f2dd2cb48da1be8bdf359d4918462929a2822f5e0f55ae45ea02be0cc9a0355f089a9fd4afa76d0e7c15d694b9c7cc0f8f84bc723ed01120d5d4a0a6e0d285ccc2768b2c20204758690d7fa528260b7b933b2d173b4528fbd2c4bba61315a7908a481ea956f18
     _Values:
     - {fileID: 519420028}
     - {fileID: 519420032}
